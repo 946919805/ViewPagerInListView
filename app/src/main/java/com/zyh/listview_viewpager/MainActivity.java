@@ -10,6 +10,9 @@ import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.ViewGroup;
 
+/**
+ * 这是一个ViewPager与ListView相互嵌套的例子.最外层是一个ViewPager,每个page页包含一个ListView,而在ListView中又包含了数个子ViewPager,子ViewPager中分别包含5个Button按钮
+ */
 public class MainActivity extends Activity
 {
 
